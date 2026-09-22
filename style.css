@@ -1,0 +1,146 @@
+```css
+/* ==============================
+   RESET
+============================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #0b1120;
+    color: #f8fafc;
+    line-height: 1.6;
+}
+
+
+/* ==============================
+   NAVBAR
+============================== */
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 8%;
+
+    background: rgba(11, 17, 32, 0.75);
+    backdrop-filter: blur(12px);
+
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+nav h2 {
+    font-size: 25px;
+    color: #60a5fa;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: #e2e8f0;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #60a5fa;
+}
+
+
+/* ==============================
+   HERO
+============================== */
+
+.hero {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 120px 20px 60px;
+
+    background:
+        radial-gradient(circle at 20% 20%, #1e3a8a55, transparent 35%),
+        radial-gradient(circle at 80% 70%, #7c3aed44, transparent 35%),
+        #0b1120;
+}
+
+.hero h1 {
+    font-size: clamp(45px, 7vw, 80px);
+    font-weight: 800;
+
+    margin-bottom: 15px;
+}
+
+.hero h1 span {
+    color: #60a5fa;
+}
+
+.hero h3 {
+    font-size: 25px;
+    color: #cbd5e1;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: auto;
+
+    color: #94a3b8;
+    font-size: 18px;
+}
+
+
+/* ==============================
+   BUTTON
+============================== */
+
+.btn {
+    display: inline-block;
+
+    margin-top: 30px;
+    padding: 14px 30px;
+
+    border-radius: 30px;
+
+    background: linear-gradient(
+        135deg,
+        #3b82f6,
+        #8b5cf6
+    );
+
+    color: white;
+    text-decoration: none;
+
+    font-weight: bold;
+
+    box-shadow: 0 10px 30px #3b82f633;
+
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-4px);
+
+    box-shadow:
+```
